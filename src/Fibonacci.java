@@ -1,7 +1,9 @@
 public class Fibonacci {
-    public static void main(String args[]) {
-        int arr[] = new int[20];
+
+    public static void fibo() {
+
         System.out.print("Sucesión de Fibonacci: ");
+        int arr[] = new int[20];
         int a = 0, b = 1, c = 0;
         for (int i = 0; i < 20; i++) {
             if (i == 0) {
@@ -16,7 +18,7 @@ public class Fibonacci {
         }
         for (int h = 0; h < 20; h++) {
             System.out.print(arr[h]);
-            System.out.println(" "+" ");
+            System.out.println(" ");
         }
     }
 }
